@@ -1,0 +1,12 @@
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - for file in *; do [ "$file" != "public" ] && cp -r "$file" public/; done
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
