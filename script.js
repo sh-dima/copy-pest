@@ -13,5 +13,3 @@ async function spamClipboard() {
 		await new Promise(res => setTimeout(res, 15));
 	}
 };
-
-exports = spamClipboard;
