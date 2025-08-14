@@ -12,7 +12,7 @@ async function spamClipboard() {
 
 		console.log("Copying string", str);
 		await navigator.clipboard.writeText(str);
-		copied.push(str);
+		copied.unshift(str);
 		updateLogs();
 		await new Promise(res => setTimeout(res, 15));
 	}
