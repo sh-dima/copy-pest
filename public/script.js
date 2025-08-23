@@ -3,7 +3,7 @@ const characters = "abcdefghijklmnopqrstuvwxyz";
 const copied = [];
 
 async function spamClipboard() {
-	for (let i = 0; i < 10; i++) {
+	for (let i = 0; i < getCopies(); i++) {
 		let str = "";
 
 		for (let j = 0; j < getLength(); j++) {
@@ -32,4 +32,9 @@ function getDelay() {
 function getLength() {
 	const l = document.getElementById("length");
 	return l.value;
+}
+
+function getCopies() {
+	const c = document.getElementById("copies")
+	return c.value;
 }
