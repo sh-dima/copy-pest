@@ -36,6 +36,8 @@ p.logs {
 	text-align: center;
 
 	font-size: 25px;
+
+	margin-bottom: 70px;
 }
 
 div.button-container {
@@ -97,15 +99,22 @@ button.go-button:active {
 }
 
 div.footer {
-	position: absolute;
+	position: fixed;
+
 	bottom: 0;
 
 	background-color: rgb(35, 35, 35);
 	width: 100%;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 p.footer-text {
 	font-size: x-large;
+
+	margin-bottom: 0;
+	margin-top: 0;
 
 	font-family: monospace;
 	margin-left: 2.5%
