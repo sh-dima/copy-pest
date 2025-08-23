@@ -118,3 +118,9 @@ a.author {
 a.license {
 	color: purple;
 }
+
+img.source {
+	color: white;
+
+	vertical-align: middle;
+}
