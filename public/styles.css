@@ -1,15 +1,5 @@
 body {
 	margin: 0;
-
-	background-color: rgb(25, 25, 25);
-}
-
-div.title-container {
-	background-color: rgb(35, 35, 35);
-}
-
-p, h1, label {
-	color: white;
 }
 
 h1.title {
@@ -60,15 +50,10 @@ div.settings-container {
 input {
 	border-radius: 0;
 	border-width: 1px;
-
-	border-color: black;
 }
 
 input#delay, input#length, input#copies, input#characters {
 	margin-left: 5px;
-
-	background-color: rgb(35, 35, 35);
-	color: white;
 }
 
 button.go-button {
@@ -82,13 +67,7 @@ button.go-button {
 
 	font-size: 30px;
 
-	background-color: white;
 	transition-duration: 0.15s;
-}
-
-button.go-button:hover {
-	color: white;
-	background-color: black;
 }
 
 button.go-button:active {
@@ -103,7 +82,6 @@ div.footer {
 
 	bottom: 0;
 
-	background-color: rgb(35, 35, 35);
 	width: 100%;
 
 	padding-top: 10px;
@@ -120,16 +98,92 @@ p.footer-text {
 	margin-left: 2.5%
 }
 
-a.author {
-	color: white;
-}
-
 a.license {
 	color: purple;
 }
 
 img.source {
-	color: white;
-
 	vertical-align: middle;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(25, 25, 25);
+	}
+
+	div.title-container {
+		background-color: rgb(35, 35, 35);
+	}
+
+	p, h1, label {
+		color: white;
+	}
+
+	input {
+		border-color: black;
+		background-color: rgb(35, 35, 35);
+		color: white;
+	}
+
+	button.go-button {
+		background-color: white;
+	}
+
+	button.go-button:hover {
+		color: white;
+		background-color: black;
+	}
+
+	a.author {
+		color: white;
+	}
+
+	img.source {
+		color: white;
+	}
+
+	div.footer {
+		background-color: rgb(35, 35, 35);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: rgb(225, 225, 225);
+	}
+
+	div.title-container {
+		background-color: rgb(215, 215, 215);
+	}
+
+	p, h1, label {
+		color: black;
+	}
+
+	input {
+		border-color: white;
+		background-color: rgb(215, 215, 215);
+		color: black;
+	}
+
+	button.go-button {
+		background-color: white;
+	}
+
+	button.go-button:hover {
+		color: white;
+		background-color: black;
+	}
+
+	a.author {
+		color: black;
+	}
+
+	img.source {
+		color: black;
+	}
+
+	div.footer {
+		background-color: rgb(215, 215, 215);
+	}
 }
