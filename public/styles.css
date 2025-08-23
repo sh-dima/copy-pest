@@ -56,7 +56,7 @@ input {
 	border-color: black;
 }
 
-input#delay, input#length, input#copies {
+input#delay, input#length, input#copies, input#characters {
 	margin-left: 5px;
 }
 

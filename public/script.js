@@ -1,8 +1,8 @@
-const characters = "abcdefghijklmnopqrstuvwxyz";
-
 const copied = [];
 
 async function spamClipboard() {
+	const characters = getCharacters();
+
 	for (let i = 0; i < getCopies(); i++) {
 		let str = "";
 
@@ -36,5 +36,10 @@ function getLength() {
 
 function getCopies() {
 	const c = document.getElementById("copies")
+	return c.value;
+}
+
+function getCharacters() {
+	const c = document.getElementById("characters");
 	return c.value;
 }
