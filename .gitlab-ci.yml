@@ -3,6 +3,7 @@ image: alpine:latest
 pages:
   stage: deploy
   script:
+    - cp LICENSE public/LICENSE
     - echo "Deploying to GitLab pages..."
   artifacts:
     paths:

@@ -114,3 +114,7 @@ p.footer-text {
 a.author {
 	color: white;
 }
+
+a.license {
+	color: purple;
+}
