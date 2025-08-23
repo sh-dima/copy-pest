@@ -41,7 +41,7 @@ div.button-container {
 }
 
 div.settings-container {
-	display: flex;
+	display: grid;
 
 	justify-content: center;
 
@@ -49,13 +49,19 @@ div.settings-container {
 	margin-bottom: 10px;
 }
 
-input#delay {
-	margin-left: 5px;
-
+input {
 	border-radius: 0;
 	border-width: 1px;
 
 	border-color: black;
+}
+
+input#delay {
+	margin-left: 5px;
+}
+
+input#length {
+	margin-left: 5px;
 }
 
 button.go-button {

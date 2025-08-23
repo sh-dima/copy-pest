@@ -6,7 +6,7 @@ async function spamClipboard() {
 	for (let i = 0; i < 10; i++) {
 		let str = "";
 
-		for (let j = 0; j < 10; j++) {
+		for (let j = 0; j < getLength(); j++) {
 			str += characters[Math.floor(Math.random() * characters.length)];
 		}
 
@@ -27,4 +27,9 @@ function updateLogs() {
 function getDelay() {
 	const d = document.getElementById("delay");
 	return d.value;
+}
+
+function getLength() {
+	const l = document.getElementById("length");
+	return l.value;
 }
