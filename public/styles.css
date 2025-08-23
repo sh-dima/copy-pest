@@ -1,9 +1,15 @@
 body {
 	margin: 0;
+
+	background-color: rgb(25, 25, 25);
 }
 
 div.title-container {
-	background-color: rgb(219, 219, 219);
+	background-color: rgb(35, 35, 35);
+}
+
+p, h1, label {
+	color: white;
 }
 
 h1.title {
@@ -58,6 +64,9 @@ input {
 
 input#delay, input#length, input#copies, input#characters {
 	margin-left: 5px;
+
+	background-color: rgb(35, 35, 35);
+	color: white;
 }
 
 button.go-button {
@@ -71,7 +80,7 @@ button.go-button {
 
 	font-size: 30px;
 
-	background-color: inherit;
+	background-color: white;
 	transition-duration: 0.15s;
 }
 
