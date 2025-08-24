@@ -56,7 +56,7 @@ input#delay, input#length, input#copies, input#characters {
 	margin-left: 5px;
 }
 
-button.go-button {
+button.go-button, button.clear-button {
 	display: inline-block;
 
 	border-radius: 0;
@@ -70,7 +70,7 @@ button.go-button {
 	transition-duration: 0.15s;
 }
 
-button.go-button:active {
+button.go-button:active, button.clear-button:active {
 	margin-top: 2.5px;
 
 	width: 130px;
@@ -125,11 +125,11 @@ img.source {
 		color: white;
 	}
 
-	button.go-button {
+	button.go-button, button.clear-button {
 		background-color: white;
 	}
 
-	button.go-button:hover {
+	button.go-button:hover, button.clear-button:hover {
 		color: white;
 		background-color: black;
 	}
@@ -166,11 +166,11 @@ img.source {
 		color: black;
 	}
 
-	button.go-button {
+	button.go-button, button.clear-button {
 		background-color: white;
 	}
 
-	button.go-button:hover {
+	button.go-button:hover, button.clear-button:hover {
 		color: white;
 		background-color: black;
 	}

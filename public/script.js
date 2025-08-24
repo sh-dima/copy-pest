@@ -1,4 +1,4 @@
-const copied = [];
+let copied = [];
 
 async function spamClipboard() {
 	const characters = getCharacters();
@@ -22,6 +22,12 @@ function updateLogs() {
 	const p = document.querySelector("p.logs");
 
 	p.innerHTML = copied.map((entry) => `Copied text "${entry}"`).join("<br />");
+}
+
+function clearLogs() {
+	copied = [];
+
+	updateLogs();
 }
 
 function getDelay() {
