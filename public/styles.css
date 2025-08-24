@@ -19,11 +19,15 @@ label {
 	font-size: x-large;
 }
 
+div.logs-container {
+	display: flex;
+}
+
 p.logs {
 	font-family: monospace;
 
 	margin: 20px auto;
-	text-align: center;
+	text-align: left;
 
 	font-size: 25px;
 
