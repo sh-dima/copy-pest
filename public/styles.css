@@ -137,6 +137,10 @@ img.source {
 		background-color: rgb(35, 35, 35);
 	}
 
+	h2.configuration-title {
+		color: white;
+	}
+
 	p, h1, label {
 		color: white;
 	}
@@ -176,6 +180,10 @@ img.source {
 
 	div.title-container {
 		background-color: rgb(215, 215, 215);
+	}
+
+	h2.configuration-title {
+		color: black;
 	}
 
 	p, h1, label {
