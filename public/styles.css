@@ -41,7 +41,7 @@ div.logs-container {
 	display: flex;
 }
 
-p.logs {
+pre.logs {
 	font-family: monospace;
 
 	margin: 20px auto;

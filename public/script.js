@@ -19,9 +19,9 @@ async function spamClipboard() {
 };
 
 function updateLogs() {
-	const p = document.querySelector("p.logs");
+	const p = document.querySelector("pre.logs");
 
-	p.innerHTML = copied.map((entry) => `Copied text "${entry}"`).join("<br />");
+	p.textContent = copied.map((entry) => `Copied text "${entry}"`).join("\n");
 }
 
 function clearLogs() {
