@@ -165,7 +165,7 @@ img.source {
 		color: white;
 	}
 
-	p, h1, label {
+	p, h1, label, pre {
 		color: white;
 	}
 
@@ -210,7 +210,7 @@ img.source {
 		color: black;
 	}
 
-	p, h1, label {
+	p, h1, label, pre {
 		color: black;
 	}
 
