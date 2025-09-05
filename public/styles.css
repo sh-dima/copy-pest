@@ -130,12 +130,12 @@ div.footer {
 
 	width: 100%;
 
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0.5vmax;
+	padding-bottom: 0.5vmax;
 }
 
 p.footer-text {
-	font-size: x-large;
+	font-size: 0.9vmax;
 
 	margin-bottom: 0;
 	margin-top: 0;
@@ -150,6 +150,8 @@ a.license {
 
 img.source {
 	vertical-align: middle;
+
+	width: 1.5vmax;
 }
 
 @media (prefers-color-scheme: dark) {
